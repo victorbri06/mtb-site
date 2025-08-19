@@ -46,8 +46,8 @@ const Hero = ({ onScrollToGallery }) => (
   <section className="w-full min-h-[70vh] md:min-h-[80vh] flex items-center bg-gradient-to-b from-black to-gray-900 text-white">
     <div className="w-full px-6 md:px-10 grid gap-10 md:grid-cols-2 items-center">
       <div className="max-w-[900px]">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Fotografie de competiție — <span className="text-white/80">MTB</span></h1>
-        <p className="mt-4 text-white/80 text-lg">Site de prezentare cu imagini mari, pe tot ecranul.</p>
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Mounatibike photography — <span className="text-white/80">Victor Brinza</span></h1>
+        <p className="mt-4 text-white/80 text-lg">Ex cyclist, now full time photographer.</p>
         <div className="mt-8">
           <button onClick={onScrollToGallery} className="rounded-2xl bg-white text-black px-6 py-3 font-medium hover:opacity-90">Vezi galeria</button>
         </div>

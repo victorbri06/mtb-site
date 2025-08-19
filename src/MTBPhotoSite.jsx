@@ -31,11 +31,11 @@ const Header = () => (
     <div className="w-full px-6 py-3 flex items-center justify-between">
       <div className="flex items-center gap-2">
         <Camera className="w-6 h-6" />
-        <span className="font-semibold tracking-tight">MTB • Photo Stories</span>
+        <span className="font-semibold tracking-tight">MTB • Photography</span>
       </div>
       <nav className="hidden sm:flex gap-6 text-sm">
-        <a className="hover:underline" href="#galerie">Galerie</a>
-        <a className="hover:underline" href="#despre">Despre</a>
+        <a className="hover:underline" href="#galerie">Galery</a>
+        <a className="hover:underline" href="#despre">About</a>
         <a className="hover:underline" href="#contact">Contact</a>
       </nav>
     </div>
@@ -46,10 +46,10 @@ const Hero = ({ onScrollToGallery }) => (
   <section className="w-full min-h-[70vh] md:min-h-[80vh] flex items-center bg-gradient-to-b from-black to-gray-900 text-white">
     <div className="w-full px-6 md:px-10 grid gap-10 md:grid-cols-2 items-center">
       <div className="max-w-[900px]">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Mounatibike photography — <span className="text-white/80">Victor Brinza</span></h1>
-        <p className="mt-4 text-white/80 text-lg">Ex cyclist, now full time photographer.</p>
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">MTB photography — <span className="text-white/80">Victor Brinza</span></h1>
+        <p className="mt-4 text-white/80 text-lg">Ex cyclist, now part time photographer.</p>
         <div className="mt-8">
-          <button onClick={onScrollToGallery} className="rounded-2xl bg-white text-black px-6 py-3 font-medium hover:opacity-90">Vezi galeria</button>
+          <button onClick={onScrollToGallery} className="rounded-2xl bg-white text-black px-6 py-3 font-medium hover:opacity-90">See the galery</button>
         </div>
       </div>
       <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
@@ -124,12 +124,15 @@ const About = () => (
   <section id="despre" className="w-full bg-white">
     <div className="w-full px-6 md:px-10 py-12 grid md:grid-cols-3 gap-6 items-start">
       <div className="md:col-span-2 border rounded-xl p-6">
-        <h2 className="text-2xl font-semibold mb-2">Despre proiect</h2>
-        <p className="text-gray-600">Site de prezentare pentru fotografia de MTB. Imagini mari, fără distrageri.</p>
+        <h2 className="text-2xl font-semibold mb-2">About me</h2>
+        <p className="text-gray-600">I've been racing through the junior ranks but couldn't quite make it to the top so I decided to pursue my passion. For the past few years i've been slowly improving and lately
+          the results have been visible: most of my photos have been used by the Romanian Cycling federation and the only UCI MTB Team in Romania: Dinamo-Mit Clima-BikrXpert for their posts. Now i'm looking for 
+          new partners and oportunities.
+        </p>
       </div>
       <div className="border rounded-xl p-6">
-        <h3 className="font-semibold">Contact rapid</h3>
-        <p className="text-sm text-gray-600">Email: hello@exemplu.ro</p>
+        <h3 className="font-semibold">Easy contact</h3>
+        <p className="text-sm text-gray-600">Email: victorbri06@yahoo.com</p>
       </div>
     </div>
   </section>
@@ -139,16 +142,16 @@ const Contact = () => (
   <section id="contact" className="w-full border-t bg-gray-50">
     <div className="w-full px-6 md:px-10 py-12 grid md:grid-cols-2 gap-8 items-center">
       <div>
-        <h2 className="text-2xl font-semibold">Hai să lucrăm împreună</h2>
-        <p className="text-gray-600 mt-2">Brief rapid pe email, apoi propunere de acoperire și livrabile.</p>
+        <h2 className="text-2xl font-semibold">Let's work together</h2>
+        <p className="text-gray-600 mt-2">Contact me through email and tell me about your project and I'll get back asap.</p>
         <div className="mt-4 flex gap-3">
-          <a href="mailto:hello@exemplu.ro" className="rounded-2xl bg-black text-white px-5 py-2.5 font-medium">hello@exemplu.ro</a>
-          <a href="#galerie" className="rounded-2xl border px-5 py-2.5 font-medium hover:bg-gray-100">Vezi portofoliu</a>
+          <a href="mailto:victorbri06@yahoo.com" className="rounded-2xl bg-black text-white px-5 py-2.5 font-medium">Email me here</a>
+          <a href="#galerie" className="rounded-2xl border px-5 py-2.5 font-medium hover:bg-gray-100">See my galery</a>
         </div>
       </div>
       <div className="border rounded-xl p-6">
-        <h3 className="font-semibold">Disponibilitate</h3>
-        <p className="text-sm text-gray-600">Weekend-uri de concurs + sesiuni dedicate pentru echipe / sponsori.</p>
+        <h3 className="font-semibold">Availability</h3>
+        <p className="text-sm text-gray-600">Race weekends, private sesions for teams/sponsors or short individual sesions</p>
       </div>
     </div>
   </section>
@@ -157,9 +160,9 @@ const Contact = () => (
 const Footer = () => (
   <footer className="w-full border-t">
     <div className="w-full px-6 md:px-10 py-6 text-sm text-gray-600 flex flex-col sm:flex-row items-center justify-between gap-2">
-      <div>© {new Date().getFullYear()} MTB Photo Stories. Toate drepturile rezervate.</div>
+      <div>© {new Date().getFullYear()} MTB Photo Stories. All rights reserved.</div>
       <div className="flex gap-3">
-        <a className="hover:underline" href="#despre">Despre</a>
+        <a className="hover:underline" href="#despre">About</a>
         <a className="hover:underline" href="#contact">Contact</a>
       </div>
     </div>

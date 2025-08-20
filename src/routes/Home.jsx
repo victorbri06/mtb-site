@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const heroSrc = "/images/_DSC0164.jpg"; // ← pune aici fotografia ta „wow”
+const heroSrc = "/images/_DSC0485.jpg"; // ← pune aici fotografia ta „wow”
 
 export default function Home() {
   return (
